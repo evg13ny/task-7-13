@@ -118,18 +118,6 @@ body {
     margin-bottom: 50px;
 }
 
-.tile_1,
-.tile_2 {
-    display: flex;
-    flex-direction: row;
-}
-
-.img_tile_1,
-.img_tile_2 {
-    padding-right: 0;
-    padding-left: 0;
-}
-
 .ending {
     height: 150px;
 }
