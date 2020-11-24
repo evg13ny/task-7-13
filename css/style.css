@@ -6,12 +6,16 @@
 .about_me,
 .p_project,
 .skills_list,
-.work {
+.work,
+.site,
+.ending_left {
     font-family: 'Roboto', sans-serif;
 }
 
 body {
     max-width: 1920px;
+    min-width: 320px;
+    height: 100%;
 }
 
 .menu_link {
@@ -19,7 +23,9 @@ body {
 }
 
 .nav_menu,
-.gallery {
+.gallery,
+.gallery_micro,
+.gallery_vk {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,14 +33,17 @@ body {
 }
 
 .menu_list,
-.img_gallery {
+.img_gallery,
+.img_micro,
+.img_vk {
     width: auto;
     display: inline-block;
 }
 
 .logo_menu,
 .write_me,
-.skills {
+.skills,
+.ending {
     display: inline-flex;
     align-items: center;
 }
@@ -53,18 +62,22 @@ body {
 .about_me h2,
 .about_me p,
 .work h2,
-.work p {
+.work p,
+.site h2,
+.site p {
     margin-bottom: 60px;
 }
 
 .present p,
 .about_me p,
 .skills_list dd,
-.work p {
+.work p,
+.site p {
     color: #727272;
 }
 
-.button_write {
+.button_write,
+.button_send {
     background: #34547A;
     color: #FFFFFF;
     width: 225px;
@@ -76,25 +89,47 @@ body {
 .about_me,
 .skills,
 .work,
-.video {
+.video,
+.site {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
 .about_me,
-.work {
+.work,
+.site h2,
+.site p {
     text-align: center;
 }
 
-.section_third {
+.section_third,
+.section_tenth {
     background:  #34547A;
 }
 
-.p_project {
+.p_project,
+.ending_left {
     color: #ffffff;
 }
 
-.gallery {
+.gallery,
+.gallery_micro {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.tile_1,
+.tile_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.img_tile_1,
+.img_tile_2 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.ending {
+    height: 150px;
 }
