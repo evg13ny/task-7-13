@@ -90,7 +90,8 @@ body {
 .skills,
 .work,
 .video,
-.site {
+.site,
+.tile {
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -103,7 +104,7 @@ body {
 }
 
 .section_third,
-.section_tenth {
+.section_ninth {
     background:  #34547A;
 }
 
